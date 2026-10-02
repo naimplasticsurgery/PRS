@@ -274,11 +274,37 @@
     line-height: 1.9;
   }
 
-  footer {
-    text-align: center;
-    padding: 48px 0 72px;
-    font-family: 'Inter', sans-serif;
-  }
+  <footer>
+  <p class="cta">For professional inquiries and collaboration</p>
+
+  <a class="email-btn" href="mailto:YOUR-EMAIL">
+    Contact Dr. Naim Abuzarifa
+  </a>
+
+  <div class="footer-legal">
+    <p>© 2026 Dr. Naim Abuzarifa. All rights reserved.</p>
+    <p>Plastic &amp; Reconstructive Surgeon</p>
+
+    <p class="footer-links">
+      <a href="#privacy">Privacy Policy</a>
+      <span>·</span>
+      <a href="#terms">Terms of Use</a>
+    </p>
+  </div>
+</footer>
+footer .footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+footer .footer-links a:hover {
+  color: var(--teal);
+}
+
+footer .footer-links span {
+  margin: 0 8px;
+  color: var(--line);
+}
   footer .cta {
     font-family: 'Lora', serif;
     font-size: 20px;
